@@ -58,6 +58,11 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .label {
+        margin-left: 70%;
+    }
+}
 
 h1 {
     color: var(--color-heading);
@@ -65,9 +70,10 @@ h1 {
 }
 
 
+
 @media screen and (max-width: 1240px) {
     h1 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 }
 
@@ -127,6 +133,13 @@ ion-icon {
     text-transform: capitalize;
     text-decoration: none;
     margin-top: 5px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .social {
+        min-width: 150px;
+    }
 }
 
 .facebook {
@@ -187,6 +200,8 @@ ion-icon {
 
 .quot p {
     font-style: italic;
+    overflow: hidden;
+    line-height: 180%;
 }
 
 h3 {
@@ -222,9 +237,15 @@ h3 {
 }
 
 .next-arrow {
-    margin-left: 75%;
+    float: right;
 }
 
 .arrow-icon {
     font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .quot a {
+        margin-left: 30%;
+    }
 }
